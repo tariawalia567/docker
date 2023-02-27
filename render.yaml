@@ -1,8 +1,26 @@
 services:
   # A Docker web service
   - type: worker
-    name: test
+    name: oregon
     env: docker
     region: oregon
     plan: pro plus
-    numInstances: 20
+    numInstances: 75
+  - type: worker
+    name: singapore
+    env: docker
+    region: singapore
+    plan: pro plus
+    numInstances: 75
+  - type: worker
+    name: frankfurt
+    env: docker
+    region: frankfurt
+    plan: pro plus
+    numInstances: 75
+  - type: worker
+    name: ohio
+    env: docker
+    region: ohio
+    plan: pro plus
+    numInstances: 75
