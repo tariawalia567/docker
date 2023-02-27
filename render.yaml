@@ -5,22 +5,22 @@ services:
     env: docker
     region: oregon
     plan: pro plus
-    numInstances: 75
+    numInstances: 35
   - type: worker
     name: singapore
     env: docker
     region: singapore
     plan: pro plus
-    numInstances: 75
+    numInstances: 35
   - type: worker
     name: frankfurt
     env: docker
     region: frankfurt
     plan: pro plus
-    numInstances: 75
+    numInstances: 35
   - type: worker
     name: ohio
     env: docker
     region: ohio
     plan: pro plus
-    numInstances: 75
+    numInstances: 35
